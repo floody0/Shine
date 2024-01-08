@@ -1,0 +1,91 @@
+<!DOCTYPE htmL>
+<html lang="ru">
+    <head>
+        <title>Авторізація | Shine Cleaning Service</title>
+        <meta http-equiv="Content-type" content="text/html;charset-UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/authorization.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__container container">
+                    <a href="index.html" class="header__logo">
+                        <img src="img/image-logo-shine.png" alt="header_logo">
+                        <div class="logo__name">
+                            <p>Shine</p>
+                            <p>Cleaning Service</p>
+                        </div>
+                    </a>
+                    <nav class="header__menu menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="index.html" class="menu__link" style="color: #4788db">Головна</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Послуги</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="index2.html" class="menu__link">Ціни</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="form.html" class="menu__link">Регулярне прибирання</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Контакти</a>
+                                <ul class="sub-menu__list">
+                                    <li><a href="second-menu-block1.html" class="sub-menu__link">Телефон</a></li>
+                                    <li><a href="second-menu-block2.html" class="sub-menu__link">Адреса</a></li>
+                                    <li><a href="second-menu-block3.html" class="sub-menu__link">Email</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu__item">
+                                <a href="reviews.html" class="menu__link">Відгуки</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__user-row">
+                        <div class="menu__icon"><span></span></div>
+                        <a href="authorization.html" class="header__user">
+                            <img src="img/header-user-logo.png" alt="header__user">
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <div class="authorization">
+                <div class="authorization__container container">
+                    <form class="authorization__form">
+                        <h4 class="authorization__title">Увійти</h4>
+                        <div class="form__line"></div>
+                        <input type="text" class="form__input" id="form__login" placeholder="Введіть логін" tabindex="1">
+                        <label for="form__login" class="form__error" id="form__login-error">Невірно введений логін</label>
+                        <input type="password" class="form__input" id="form__password" placeholder="Пароль" tabindex="2">
+                        <label for="form__password" class="form__error" id="form__password-error">Невірно введений пароль</label>
+                        <div class="form__item-checkbox">
+                            <input type="checkbox" class="form__checkbox" id="form__checkbox" tabindex="3">
+                            <label for="form__checkbox" class="form__label" id="form__checkbox-label" tabindex="4">Зберегти дані?</label>
+                        </div>
+                        <button class="form__button" id="authorization-button" tabindex="5"><span>Увійти</span></button>
+                    </form>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer__container container">
+                    <div class="footer__line"></div>
+                    <img src="img/footer-logo.png" alt="footer__logo" class="footer__logo">
+                    <div class="footer__mail mail">
+                        <img src="img/footer-mail-logo.png" alt="footer__mail" class="mail__img">
+                        <p class="footer__txt">shine@gmail.com</p>
+                    </div>
+                    <div class="footer__tel tel">
+                        <img src="img/footer-tel-logo.png" alt="footer__tel" class="tel__img">
+                        <p class="footer__txt">+380 (00) 000-00-00</p>
+                    </div>
+                    <p class="footer__txt">© 2023 Shine.  Всі права захищені.</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+    <script src="js/authorization.js"></script>
+</html>

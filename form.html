@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Замовлення | Shine Cleaning Service</title>
+        <meta http-equiv="Content-type" content="text/html;charset-UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/form.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__container container">
+                    <a href="index.html" class="header__logo">
+                        <img src="img/image-logo-shine.png" alt="header_logo">
+                        <div class="logo__name">
+                            <p>Shine</p>
+                            <p>Cleaning Service</p>
+                        </div>
+                    </a>
+                    <nav class="header__menu menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="index.html" class="menu__link">Головна</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Послуги</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="index2.html" class="menu__link">Ціни</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="form.html" class="menu__link">Регулярне прибирання</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Контакти</a>
+                                <ul class="sub-menu__list">
+                                    <li><a href="second-menu-block1.html" class="sub-menu__link">Телефон</a></li>
+                                    <li><a href="second-menu-block2.html" class="sub-menu__link">Адреса</a></li>
+                                    <li><a href="second-menu-block3.html" class="sub-menu__link">Email</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu__item">
+                                <a href="reviews.html" class="menu__link">Відгуки</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__user-row">
+                        <div class="menu__icon"><span></span></div>
+                        <a href="form.html" class="header__user">
+                            <img src="img/header-user-logo.png" alt="header__user">
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <div class="formblock">
+                <div class="formblock__container container">
+                    <div class="formblock__title">Оформлення замовлення</div>
+                    <form class="form">
+                        <div class="formblock__line"></div>
+                        <div class="form__column">
+                            <p class="form__item-title">Контактні дані</p>
+                            <div class="form__item">
+                                <label for="input_name" class="form__label">Ім’я: <span>*</span></label>
+                                <input class="form__input validation" id="input_name"  placeholder="Введіть ваше ім’я" type="text" tabindex="1">
+                                <label for="input_name" class="form-label-validation">Невірно введено імя</label>
+                            </div>
+                            <div class="form__item">
+                                <label for="input_lastname" class="form__label">Фамілія: <span>*</span></label>
+                                <input class="form__input validation" id="input_lastname" placeholder="Введіть вашу фамілію" type="text" tabindex="2">
+                                <label for="input_lastname" class="form-label-validation">Невірно введена фамілія</label>
+                            </div>
+                            <div class="form__item">
+                                <label for="input_tel" class="form__label">Телефон: <span>*</span></label>
+                                <input class="form__input validation" id="input_tel" placeholder="+380 (00)-000-00-00" type="tel" tabindex="3">
+                                <label for="input_tel" class="form-label-validation">Невірно введений телефон</label>
+                            </div>
+                        </div>
+                        <div class="form__column">
+                            <p class="form__item-title">Адреса виконання замовлення</p>
+                            <div class="form__item">
+                                <label for="select_1" class="form__label">Місто: <span>*</span></label>
+                                <select name="select" id="select_city" class="form__select validation" tabindex="4">
+                                    <option value="1" selected>Харків</option>
+                                    <option value="2">Київ</option>
+                                    <option value="3">Одеса</option>
+                                    <option value="4">Полтава</option>
+                                    <option value="5">Львів</option>
+                                </select>
+                            </div>
+                            <div class="form__item">
+                                <label for="input_adress" class="form__label">Адреса: <span>*</span></label>
+                                <input class="form__input validation" id="input_adress" placeholder="Введіть вашу адресу" type="text" tabindex="5">
+                                <label for="input_adress" class="form-label-validation">Невірно введена адреса</label>
+                            </div>
+                        </div>
+                        <div class="formblock__line"></div>
+                        <div class="form__column">
+                            <p class="form__item-title">Деталі замовлення</p>
+                            <div class="form__item">
+                                <label for="select_2" class="form__label">Послуга: <span>*</span></label>
+                                <select name="select" id="select_services" class="form__select validation" tabindex="6">
+                                    <option value="1" selected>Прибирання квартири</option>
+                                    <option value="2">Прибирання офісу</option>
+                                    <option value="3">Прибирання після ремонту</option>
+                                    <option value="4">Хімчистка ковроліну</option>
+                                    <option value="5">Хімчистка м'яких меблів</option>
+                                </select>
+                            </div>
+                            <div class="form__item">
+                                <label for="form__select-employee" class="form__label">Співробітник:</label>
+                                <select name="" id="form__select-employee" class="form__select validation" tabindex="7">
+                                    <option value="Анна" selected>Анна</option>
+                                </select>
+                            </div>
+                            <div class="form__item">
+                                <label for="input_date" class="form__label">Дата: <span>*</span></label>
+                                <input type="datetime-local" name="date" id="input_date" class="form__date validation" tabindex="8">
+                                <label for="input_date" class="form-label-validation">Невірно введена дата</label>
+                            </div>
+                        </div>
+                        <div class="form__column">
+                            <button type="submit" id="button" class="form__button">Відправити форму</button>
+                            <a class="reset_form" href="form.html">Очистити форму</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer__container container">
+                    <div class="footer__line"></div>
+                    <img src="img/footer-logo.png" alt="footer__logo" class="footer__logo">
+                    <div class="footer__mail mail">
+                        <img src="img/footer-mail-logo.png" alt="footer__mail" class="mail__img">
+                        <p class="footer__txt">shine@gmail.com</p>
+                    </div>
+                    <div class="footer__tel tel">
+                        <img src="img/footer-tel-logo.png" alt="footer__tel" class="tel__img">
+                        <p class="footer__txt">+380 (00) 000-00-00</p>
+                    </div>
+                    <p class="footer__txt">© 2023 Shine.  Всі права захищені.</p>
+                </div>
+            </footer>
+            <div class="pop-up-wrapper">
+                <div class="pop-up">
+                    <div class="pop-up__info">
+                        <span class="pop-up__logo"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 128 128">
+                            <path fill="#fff" d="M64 16A48 48 0 1 0 64 112A48 48 0 1 0 64 16Z"></path><path fill="#8ccfb9" d="M64 25A39 39 0 1 0 64 103A39 39 0 1 0 64 25Z"></path><path fill="none" stroke="#444b54" stroke-miterlimit="10" stroke-width="6" d="M64 16A48 48 0 1 0 64 112A48 48 0 1 0 64 16Z"></path><path fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6" d="M42 69L55.55 81 86 46"></path>
+                            </svg></span>
+                        <p class="pop-up__txt">Замовлення прийнято.</p>
+                    </div>
+                    <a href="index.html"  class="pop-up__button" id="pop-up-button">Перейти на головну сторінку</a>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="./js/main.js"></script>
+</html>

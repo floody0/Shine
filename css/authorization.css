@@ -1,0 +1,100 @@
+
+body{
+    background: url(../img/login-page-background.png) no-repeat;
+    background-size: cover;
+}
+.authorization {
+    width: 100%;
+    margin: 150px 0;
+}
+.authorization__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.authorization__title {
+    width: 70%;
+    color: #124688;
+    opacity: 90%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.authorization__form {
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 45px 0;
+    box-sizing: inherit;
+    border-radius: 40px;
+    background: #FFF;
+    box-shadow: -4px 4px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.form__line{
+    height: 1px;
+    width: 72%;
+    background: #D9D9D9;
+}
+.form__input {
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #C6C6C6;
+    background: #FFF;
+    padding: 0 5px;
+    box-sizing: inherit;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+.form__input:first-of-type{
+    margin: 10px 0 0 0;
+}
+.form__error{
+    display: none;
+    width: 72%;
+    margin-top: -10px;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+.form__item-checkbox {
+    width: 72%;
+    display: flex;
+    column-gap: 8px;
+}
+.form__checkbox{
+    color: #000;
+    opacity: 70%;
+}
+.form__label {
+    text-align: center;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    opacity: 70%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+.form__button {
+    width: 72%;
+    height: 35px;
+    border-radius: 5px;
+    background: #63B0E5;
+    color: #FFF;
+    text-align: center;
+}
+.form__button span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
